@@ -103,8 +103,14 @@ There may information that low level users should not be able to access, for exa
 
 ## IAC
 ### Explanation
+Infrastructure as code is the concept of creating infrastructure such as virtual machines or databases using code over manually creating those resources.
+With IAC you create configuration files that contain the settings for your infrastructure which will allow a developer to automate the process as well as removing human error.
+
 ### Experience
+In our team project, we orchestrate all our infrastructure using Terraform and Packer, which in turn means that we don't have to manually go onto AWS and create that infrastructure. Terraform was used to create our vpc, subnets, gateways, and EC2 instances on AWS, along with create a database on the EC2 instance for the backend. Packer was used to create an ami from our existing local virtual machines to be used as a sort of blueprint for the AWS instances.
+
 ### Benefits
+Much like the rest of the concepts previously discussed, IAC has many benefits in cost reduction, reduced build times, simplified builds and reduced likelihood of errors
 
 ## Packer and Terraform
 ### Explanation
