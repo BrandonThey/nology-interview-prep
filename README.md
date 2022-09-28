@@ -114,6 +114,10 @@ Much like the rest of the concepts previously discussed, IAC has many benefits i
 
 ## Packer and Terraform
 ### Explanation
-### Experience
-### Benefits
+Packer and Terraform are tools that help create infrastructure using code, as previously mentioned in IAC. These tools let you write out code that will then be interpreted to make actual resources to be used in your infrastructure. Packer being a tool that allows for the creation of machine images, while Terraform being a tool that allows the construction of various resources.
 
+### Experience
+As mentioned in IAC, our team used Terraform and Packer ot orchestrate our AWS infrastructure and create our machine AMIs. Terraform was used to create our vpc, subnets, gateways, and EC2 instances on AWS, along with create a database on the EC2 instance for the backend. Packer was used to create an ami from our existing local virtual machines to be used as a sort of blueprint for the AWS instances.
+
+### Benefits
+The benefits of using Terraform and Packer are much like those of IAC in general. Benefits in cost reduction, reduced build times, simplified builds and reduced likelihood of errors
