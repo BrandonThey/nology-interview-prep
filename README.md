@@ -66,8 +66,19 @@ The benefits of provisioning are apparent, the ability to set up a resource ahea
 
 ## Networking
 ### Explanation
+Networking is the connection between different devices where information can be passed between the devices. When it comes to AWS and software development it really means how can a user or a developer connect to a application that hosted remotely. 
+
 ### Experience
+I previously mentioned hosting a python game on a virtual machine using Vagrant. 
+Along the same lines is hosting a React front-end application and an api/database in a seperate machine.
+I think hosting these two applications in seperate machines and connecting them together was one of the more difficult yet rewarding obstacles I've encountered. 
+In order to accomplish this, each machine must have their own ip address and ports that can be accessed by outside sources.
+Then using those ip addresses and ports we can easily connect the machines.
+
 ### Benefits
+Obviously the immediate benefit of networking is being able to connect to any Cloud infrastructure. 
+Then there are the smaller details of networking such as being able to limit who can or cannot access your application or machine. 
+In a world that's very connected by the web, its important to protect your application from outside influences.
 
 ## Principle of Least Privilege
 ### Explanation
