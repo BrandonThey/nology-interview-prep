@@ -82,9 +82,24 @@ In a world that's very connected by the web, its important to protect your appli
 
 ## Principle of Least Privilege
 ### Explanation
-### Experience
-### Benefits
+The Principle of Least Privilege is the concept that someone or something should only have the minimum amount of privileges needed to complete the tasks. 
+This is to help minimize the risk of attacks on the application as well as to help contain any damange that an attack may cause.
 
+### Experience
+In the team project, we decided that a user of the profile uploader should have the least amount of privileges. T
+his is to limit any malicious actors from uploading or downloading files that they should not have access to. 
+Even worse, to prevent any malicious actors from changing other user privileges. 
+In fact we've limited the way that a user is created, instead of giving people the ability to make their own profile, we decided that an admin can only add new users.
+This is so that admin can assign privileges to the user on creation, and to prevent the creation of a new user that lacks all privileges. 
+
+### Benefits
+A lot of benefits are self-explanatory when it comes to privileges. 
+One benefit is to minimize the chance of attacks to an application,
+the less high level accounts there are, the less damage there is.
+Another benefit being the prevention of human error, 
+if anyone in an organization can make big changes then it's a lot more likely to have human errors in the application.
+The last large benefit is one I've mentioned, protecting data.
+There may information that low level users should not be able to access, for example SSN, credit-card information, address, etc.
 
 ## IAC
 ### Explanation
