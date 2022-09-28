@@ -1,16 +1,17 @@
 # nology-interview-prep
 ## Cloud & DevOps
-    - Cloud and DevOps to me is the process of taking a product from the start to finish, incrementally. 
+    Cloud and DevOps to me is the process of taking a product from the start to finish, incrementally. 
     From actually code and creating an app, to building pipeline and deploying the app to the Cloud.
     ---
-    - I believe that the best example of this concept is my team's final project at Nology. 
+    I believe that the best example of this concept is my team's final project at Nology. 
     In the project we were tasked to create a profile uploader, the idea being that a user can upload profiles that would be saved onto a MySQL database, and hosting that application on AWS. 
     A more in-depth look into the project would show us creating a front-end website built using React that allows the user to upload, download, and group profiles. 
     The upload and download features are linked to the back-end api and MySql database. 
-    This back-end creates two tables, one to contain profile information, another to contain user information. We get profiles from the front-end and data about the profile then store the profile file into a AWS S3 bucket, which returns us a link to that location to be stored in the MySQL database. 
+    This back-end creates two tables, one to contain profile information, another to contain user information. 
+    We get profiles from the front-end and data about the profile then store the profile file into a AWS S3 bucket, which returns us a link to that location to be stored in the MySQL database. 
     We also use Terraform to orchestrate our AWS infrastructure and Jenkins as our pipeline to the infrastructure.
     ---
-    - The benefits of the Cloud in general and DevOps are vast. 
+    The benefits of the Cloud in general and DevOps are vast. 
     Using the DevOps cycle, teams can take their project from start to finish which allows for faster and better product delivery, faster issue resolution and reduced complexity from passing the work onto others. However, the greatest benefit is the automation of most of the process, pipelines, infrastructure, and deployment can all be automated to reduce time spent on them and improve resource utilzation.
 ## CICD
     - Of course, with agile the DevOps process is done incrementally and that's where the idea of CICD come in. 
