@@ -33,45 +33,55 @@ Reading how CICD worked in our team project really proves how useful CICD and au
 The team could easily create AWS infrastructure and easily deploy our application onto it rather than having to do the steps manually taking more time and resources.
 
 ## Jenkins
-    Jenkins is a tool that helps set up a CICD environment by creating piplines between repositories while also allowing developers to automate routine tasks. 
-    ---
-    Going back to my team project, I had mentioned that we used a Jenkins pipeline to deploy our application onto the AWS infrastructure.
-    Well really we had created two pipelines, one for the front-end React application and one for the NodeJS api and MySQL database backend.
-    These pipeline were linked to each respective Github repository so that every time a merge to the main branch occured the build would run and if successful, would deploy to the AWS instances.  
-    ---
-    There are many benefits of Using Jenkins, of course there's the pipelines mentioned earlier allowing programs to be pipelined to any other repository. 
-    This pipeline is also flexible, allowing the developers to add steps to it before deploying. 
-    For example, adding testing to the pipeline so that your application may only deploy if your testing is successful. 
-    There's also the benefit of automation, not only does this save time for the developer, but it also helps to eliminate user error and minimizes the effects of differing environments.
+### Explanation
+Jenkins is a tool that helps set up a CICD environment by creating piplines between repositories while also allowing developers to automate routine tasks. 
+
+### Experience
+Going back to my team project, I had mentioned that we used a Jenkins pipeline to deploy our application onto the AWS infrastructure.
+Well really we had created two pipelines, one for the front-end React application and one for the NodeJS api and MySQL database backend.
+These pipeline were linked to each respective Github repository so that every time a merge to the main branch occured the build would run and if successful, would deploy to the AWS instances.  
+
+### Benefits
+There are many benefits of Using Jenkins, of course there's the pipelines mentioned earlier allowing programs to be pipelined to any other repository. 
+This pipeline is also flexible, allowing the developers to add steps to it before deploying. 
+For example, adding testing to the pipeline so that your application may only deploy if your testing is successful. 
+There's also the benefit of automation, not only does this save time for the developer, but it also helps to eliminate user error and minimizes the effects of differing environments.
 
 ## Provisioning
-    Provisioning is the process of setting up infrastructure after it has been created.
-    Often times it is seen as configuring, but the two are different.
-    While they both share the same functionality, provisioning is the initialization of the resource while configuration is the changing of those settings. All that to say, provisioning comes first. 
-    Provisioning works in all different ways depending on what resource you're setting up.
-    A basic virtual machine provisioning might include pre-installing dependencies or even running the application in its entirety. 
-    ---
-    Using the concept of provisioning, I took a simple Python text game and deployed it to a local virtual machine. 
-    This was done by using Vagrant, a tool used for building virtual machines. 
-    In my Vagrantfile there are configurations to create a virtual machine, then there is section to run a basic provisioning script.
-    In said script, there are shell commands for a unix enviroment that update the enviroment, install python, move into the app folder and start the game. Provisioning is as simple as that. 
-    ---
-    The benefits of provisioning are apparent, the ability to set up a resource ahead of time is invaluable. Not only can a developer easily prepare an enviroment for use, but the script itself can eliminate human error during setup and allows for easy transfer of script files.
+### Explanation
+Provisioning is the process of setting up infrastructure after it has been created.
+Often times it is seen as configuring, but the two are different.
+While they both share the same functionality, provisioning is the initialization of the resource while configuration is the changing of those settings. All that to say, provisioning comes first. 
+Provisioning works in all different ways depending on what resource you're setting up.
+A basic virtual machine provisioning might include pre-installing dependencies or even running the application in its entirety. 
+
+### Experience
+Using the concept of provisioning, I took a simple Python text game and deployed it to a local virtual machine. 
+This was done by using Vagrant, a tool used for building virtual machines. 
+In my Vagrantfile there are configurations to create a virtual machine, then there is section to run a basic provisioning script.
+In said script, there are shell commands for a unix enviroment that update the enviroment, install python, move into the app folder and start the game. Provisioning is as simple as that. 
+
+### Benefits
+The benefits of provisioning are apparent, the ability to set up a resource ahead of time is invaluable. Not only can a developer easily prepare an enviroment for use, but the script itself can eliminate human error during setup and allows for easy transfer of script files.
+
 ## Networking
-    ---
-    ---
+### Explanation
+### Experience
+### Benefits
 
 ## Principle of Least Privilege
-    ---
-    ---
+### Explanation
+### Experience
+### Benefits
 
 
 ## IAC
-    ---
-    ---
-
+### Explanation
+### Experience
+### Benefits
 
 ## Packer and Terraform
-    ---
-    ---
+### Explanation
+### Experience
+### Benefits
 
