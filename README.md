@@ -1,3 +1,31 @@
+## OOP
+### Explanation
+OOP stand for Object-oriented programming, and it is exactly that.
+It's the idea of organizing programs into objects with attributes and behavior over functions. This way of programming proves useful for large programs to help better structure, understand, and mantain the software. 
+
+### Experience
+Examples can be seen any of my React projects, as React itself is object-oriented allowing users to define objects that hold and use any data given to it. One such example is in my project 4 weather API. In said project, there are components and container used to render weather cards. The main App.js file imports WeatherCard, which is a container that renders weather information from the weather API.
+
+### Benefits
+Some of the biggest benefits of OOP are the modularity and teh reusability of the objects. When someone creates an object it can be endlessly reused to save time and allows for easier maintanence. This also in turn helps scale any software for larger or more developed functionality. 
+
+## Full Stack
+### Explanation
+Full stack development is development of both sides of the software, the client side and the server side. Generally a full stack developer has experience in front end langauages such as HTMl, CSS, Javascript, etc. along with back end langauges such as Node, Python, PHP, etc. 
+
+### Experience
+Many of my React projects implement a full stack application. Refering back to the project 4 weather API project, I utllize React to create a simple front end where users can search for weather information by city. This user inputted city will be then used to query information from Open Weather Map API. This current weather information will then be passed to my own API to be stored in a MySQL database. This allows us to show any previous weather information to the user along with the current weather information.
+
+### Benefits
+The obvious benefit of working a full stack application allows a developer to work on the application without passing it on. This minimizes the overhead of handing off the application. It also allows for programmers to better maintain and understand their application to further improve it. 
+
+## MySQL
+### Explanation
+
+### Experience
+
+### Benefits
+
 ## Cloud & DevOps
 ### Explanation
 Cloud and DevOps to me is the process of taking a product from the start to finish, incrementally. 
