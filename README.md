@@ -30,6 +30,38 @@ This allows us to show any previous weather information to the user along with t
 The obvious benefit of working a full stack application allows a developer to work on the application without passing it on. This minimizes the overhead of handing off the application. 
 It also allows for programmers to better maintain and understand their application to further improve it. 
 
+## React
+### Explanation
+React is a library that allows us to easily create frontend applications.
+The library allows us to break down large complex code structures into smaller, reusable, and more manageable modules called components. 
+These compoents take in parameters, also known as properties, that allows the component to be reused similarly to a function. 
+These components can then be used in large modules called containers which make up a large section of the web application. 
+Eventually all these containers and components end up in the main app.jsx file to be dynamically rendered.
+
+### Experience
+A lot of my projects utilize React to create a frontend web application. 
+I think the most impressive one by far is our Nology group project. 
+There we utilize React along with BrowserRouter to create a simple website.
+In the website the user starts off at a login page, which itself is a container, and once logged in successfully the main account management page is rendered to serve as a homepage.
+Past that, there are upload and download buttons that will redirect the user to a separate web page allowing for upload and download user profiles.
+
+### Benefits
+React is such a powerful tool that comes with a lot of benefits to using it over plain javascript. One really handy perk is that React is declarative allowing developers to see changes in real time. 
+This makes it so much easier to understand the changes you make and the effects it has.
+
+## APIs
+### Explanation
+An api can be seen as the middle man between the frontend web application and the backend database. 
+The frontend application sends a request to the api, the api handles and processes that request then returns data as a result.
+It serves as a buffer to prevent direct access to the database. 
+It also simplifies how the frontend interacts with the backend, with an api, we don't need to know how the backend works we can just plug and play. 
+
+### Experience
+A few of my projects utilize an Api run with NodeJS and Express to handle frontend requests. One such project, project 4 weather api, utilizes an api to cache weather information sent as a post request from the frontend. The frontend will query for current weather information from the open weather map api and cache that current weather information in a mysql database through the api.
+
+### Benefits
+An api of course adds a layer of security by abstracting the backend being accessed, but they also provide a lot of modularity to an application. With an api the frontend does not need to understand any backend tools or resources such as database or queries, and may also be reused. Apis work almost like components in react, where you plug the api request in and give it some parameters to receive a simple response. 
+
 ## Relational vs Non-Relational Database
 ### Explanation
 A relational database is one that stores data in table rows and columns. 
