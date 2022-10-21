@@ -97,6 +97,30 @@ We also use Terraform to orchestrate our AWS infrastructure and Jenkins as our p
 The benefits of the Cloud in general and DevOps are vast. 
 Using the DevOps cycle, teams can take their project from start to finish which allows for faster and better product delivery, faster issue resolution and reduced complexity from passing the work onto others. However, the greatest benefit is the automation of most of the process, pipelines, infrastructure, and deployment can all be automated to reduce time spent on them and improve resource utilzation.
 
+## Virtual Machines
+### Explanation
+A virtual machine is a resource that mimics an actual computer while using software rather than physical resources.
+They're usually used to run/test programs or deploy applications. 
+Each virtual machine requires a physical host machine to run on, and utilizes its own operating system and operations.
+It basically boils down to having multiple computers that use less physical resources.
+
+### Experience
+On my group project we utilize AWS virtual machines on EC2 to deploy our project. 
+We utilzed a three tier architecture, deploying the frontend, middle tier api, and backend database into three seperate machines.
+
+### Benefits
+Virtual machines are incredible useful in that they allow for the standardization of working enviornments, along with creating a virtual enviroment to test applications before deployment. 
+Additioanlly virtual machines can be used to host different operating systems allowing for specific software to be used, such as Ansible. 
+
+## Vagrant
+### Explanation
+Vagrant is an application used for building and managing virtual machines in a simple manner. Vagrant 
+
+### Experience
+
+
+### Benefits
+
 ## CICD
 ### Explanation
 Of course, with agile the DevOps process is done incrementally and that's where the idea of CICD come in. 
